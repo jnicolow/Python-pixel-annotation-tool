@@ -1,0 +1,4 @@
+{
+    "labels":{"ground":1,"sky":2,"historic":3,"new":4},
+    "colors":{"ground":[255, 0, 0],"sky":[0,255,0],"historic":[0,0,255],"new":[1,1,1]}
+}
