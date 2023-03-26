@@ -112,6 +112,7 @@ def data_annotation_tool(traningDataDir):
         ax.set_title(imgFn)
         classIdx = 0 # only one of these is going to be used
         colorIdx = 0
+        colors=[]
 
         while True:
             btn_keep = ax.text(1.1, 0.9, 'keep ⇨', size=12, ha="right", va="top",
@@ -159,6 +160,7 @@ def data_annotation_tool(traningDataDir):
                 ax.set_title('loading...')
                 fig.canvas.draw_idle()
                 # get class
+                className = 'stub'
                 try:
                     classInfo
                 except NameError:
